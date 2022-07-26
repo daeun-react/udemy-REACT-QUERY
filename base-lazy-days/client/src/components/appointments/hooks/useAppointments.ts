@@ -105,7 +105,7 @@ export function useAppointments(): UseAppointments {
       refetchOnMount: true,
       refetchOnReconnect: true,
       refetchOnWindowFocus: true,
-      refetchInterval: 1000, // every second; not recommended for production
+      // refetchInterval: 1000, // every second; not recommended for production
     },
     // 이전 month의 스케쥴이 다음 달에 표시되므로 keepPreviousData은 적절하지 않음
     // {
